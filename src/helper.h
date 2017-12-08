@@ -12,6 +12,7 @@
 typedef arma::mat MAT;
 typedef arma::vec VEC;
 typedef arma::uvec UVEC;
+typedef arma::rowvec ROWVEC;
 
 typedef bool BOOL;
 typedef double FL;
@@ -20,7 +21,7 @@ typedef int INTEGER;
 typedef arma::uword IND_TYPE;
 
 const int INTEGER_MAX=INT_MAX;
-const FL EPS = 1e-6;
+const FL EPS = 1e-16;
 
 // CONFIG
 const FL MACF_TEST_PERCENT = 0.95;
