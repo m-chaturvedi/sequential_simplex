@@ -4,7 +4,8 @@
  *  Created on: Oct 22, 2017
  *      Author: xiaofengma
  */
-#include <dual_simplex.h>
+#include "dual_simplex.h"
+//#include "LP_simplex.h"
 
 using namespace std;
 using namespace arma;

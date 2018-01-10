@@ -1,7 +1,7 @@
 #ifndef SRC_LP_simplex_H_
 #define SRC_LP_simplex_H_
 
-#include "helper.h"
+#include "helpers.h"
 // using namespace std;
 
 class LP_simplex{

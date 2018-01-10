@@ -8,7 +8,7 @@
 #ifndef SRC_DUAL_SIMPLEX_H_
 #define SRC_DUAL_SIMPLEX_H_
 
-#include "helper.h"
+#include "helpers.h"
 #include "LP_simplex.h"
 
 class dual_simplex{
