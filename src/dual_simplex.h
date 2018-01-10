@@ -15,7 +15,7 @@ class dual_simplex{
 	// take in a LP with basic non-feasible solution solve dual for feasibility
 public:
 	dual_simplex(LP_simplex &my_LP);
-	dual_simplex(){}
+	dual_simplex() {}
 	void compute_l();
 	void compute_j();
 	void compute_c_bar();
@@ -28,7 +28,7 @@ public:
 	};
 
 private:
-	LP_simplex * my_LP;
+	LP_simplex *my_LP;
 	ROWVEC c_bar;
 	VEC c;
 	VEC b;

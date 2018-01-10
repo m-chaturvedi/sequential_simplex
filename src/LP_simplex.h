@@ -6,8 +6,8 @@
 
 class LP_simplex{
 public:
+	LP_simplex() {}
 	BOOL B_inv_update_status = false;
-
 	void set_LP(MAT &A, VEC &b, VEC &c){
 		this->A = A; // design matrix
 		this->b = b; // constraint variable

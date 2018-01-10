@@ -18,8 +18,8 @@ dual_simplex::dual_simplex(LP_simplex &my_LP){
 	this->old_basic_idx = my_LP.get_basic_idx();
 	this->B_inv = my_LP.get_B_inv();
 	this->optimal_flag = false;
-	this->l = -1;
-	this->j = -1;
+	this->l = 0;
+	this->j = 0;
 }
 
 /*compute_c_bar compute the reduced cost c_bar*/
